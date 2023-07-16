@@ -15,7 +15,7 @@ OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 def main():
     st.set_page_config(page_title="Stuff You Should Know")
     st.header("Ask about the podcast")
-    st.write('Welcome to the page')
+    st.write('Welcome to the page!')
    
     folder_path = 'Transcripts'
     transcripts = []
