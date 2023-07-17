@@ -1,3 +1,5 @@
 .env
 Audio/
 __pycache__/
+episode_info/
+rss_feed/
