@@ -1,23 +1,17 @@
 # sysk-podcast repo
-Stuff You Should Know Podcast Similarity with LangChain
+Stuff You Should Know Podcast Similarity with Semantic Kernel
 
 ### Desired Future State Objectives
-- Chat with sysk episodes
-- Analyze and group semantically similar episodes
-- Application to interact with the analysis of the podcast
+- Leverage a chat interface to understand sysk episodes
+- The chat should be able to produce analytics type results visualized
 
-### Short Term Objectives
-- Manually pull in 10 .mp3 files from the SYSK RSS feed
-- Use Whisper to convert those to .txt files
-- Use LangChain + OpenAI to create embeddings and chat experience using retrieval-augmented generation
-- Use Streamlit as lightweight start to application
+### Architecture
+- Semantic Kernel for model orchestration
+- Azure AI Foundry for model selection and observability
+- Azure AI Search for indexing and semantic search of episodes
+- Azure Container Apps for application hosting
+- MCP for tool centralization
+- Microsoft Fabric for data processing and analytical stores
+- Streamlit for prompting
+- Python
 
-### TODOs for Desired Future State
-- Automate process of pulling in and converting all .mp3 files from the RSS feed
-- Speaker diarization of transcripts
-- Identify and take out ads of transcripts
-- Use automated process for newly created episodes
-- Convert streamlit app to web application
-- T-SNE visualization of all episodes
-- Vector store for embedding chunks
-- Convert project to Azure hosting
